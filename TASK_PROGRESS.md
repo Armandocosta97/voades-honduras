@@ -1,0 +1,160 @@
+# VOADES Honduras - Task Progress
+
+Ultimo aggiornamento: 2026-03-30
+
+## Stato
+
+- [x] TASK 001 - Inizializza progetto React + Vite
+- [x] TASK 002 - Installa dipendenze base
+- [x] TASK 003 - Organizza struttura cartelle
+- [x] TASK 004 - Pulisci boilerplate Vite
+- [x] TASK 005 - Configura entry point pulito
+- [x] TASK 006 - Configura router base
+- [x] TASK 007 - Crea file CSS globale principale
+- [x] TASK 008 - Imposta base layout app
+- [x] TASK 009 - Definisci variabili CSS di brand
+- [x] TASK 010 - Test di avvio e navigazione
+- [x] TASK 011 - Imposta tipografia globale
+- [x] TASK 012 - Definisci container globale
+- [x] TASK 013 - Definisci utility spacing
+- [x] TASK 014 - Definisci utility buttons
+- [x] TASK 015 - Definisci griglia responsive base
+- [x] TASK 016 - Definisci stili card globali
+- [x] TASK 017 - Definisci stili link e focus state
+- [x] TASK 018 - Definisci stile sezioni alternate
+- [x] TASK 019 - Definisci classi per badge/pill
+- [x] TASK 020 - Audit visuale iniziale
+- [x] TASK 021 - Crea data file contacts.js
+- [x] TASK 022 - Crea data file organization.js
+- [x] TASK 023 - Crea data file courses.js
+- [x] TASK 024 - Crea data file faqs.js
+- [x] TASK 025 - Crea data file nav.js
+- [x] TASK 026 - Crea data file helpAreas.js
+- [x] TASK 027 - Crea data file volunteerSteps.js
+- [x] TASK 028 - Crea data file trustPoints.js
+- [x] TASK 029 - Crea data file socialLinks.js
+- [x] TASK 030 - Verifica consumabilità dati
+- [x] TASK 031 - Crea componente Button
+- [x] TASK 032 - Crea componente SectionTitle
+- [x] TASK 033 - Crea componente IconCircle
+- [x] TASK 034 - Crea componente ContactCard
+- [x] TASK 035 - Crea componente CourseCard
+- [x] TASK 036 - Crea componente ValueCard
+- [x] TASK 037 - Crea componente StepCard
+- [x] TASK 038 - Crea componente FAQAccordion
+- [x] TASK 039 - Crea componente Stat/TrustItem
+- [x] TASK 040 - Test UI components sandbox
+- [x] TASK 041 - Crea Header desktop/mobile
+- [x] TASK 042 - Crea mobile menu
+- [x] TASK 043 - Crea MobileContactBar fissa
+- [x] TASK 044 - Crea FloatingWhatsApp desktop
+- [x] TASK 045 - Crea Footer base
+- [x] TASK 046 - Crea Layout wrapper
+- [x] TASK 047 - Gestisci active nav state
+- [x] TASK 048 - Gestisci scroll top on route change
+- [x] TASK 049 - Rifinisci sticky header
+- [x] TASK 050 - Verifica layout su 3 breakpoint
+- [x] TASK 051 - Crea pagina Home base
+- [x] TASK 052 - Crea sezione Hero
+- [x] TASK 053 - Inserisci trust points sotto Hero
+- [x] TASK 054 - Crea sezione AboutPreview
+- [x] TASK 055 - Crea sezione HelpAreas
+- [x] TASK 056 - Crea sezione CoursesPreview
+- [x] TASK 057 - Crea sezione VolunteerCTA
+- [x] TASK 058 - Crea ContactQuickSection
+- [x] TASK 059 - Crea GeneralFAQSection
+- [x] TASK 060 - Rifinisci ordine e spaziature Home
+- [x] TASK 061 - Rafforza hero copy e hierarchy
+- [x] TASK 062 - Inserisci microcopy vicino alle CTA
+- [x] TASK 063 - Migliora visual hero
+- [x] TASK 064 - Ottimizza HelpAreas card hierarchy
+- [x] TASK 065 - Aggiungi categoria badge alle course card
+- [x] TASK 066 - Aggiungi WhatsApp CTA per ogni corso in preview
+- [x] TASK 067 - Migliora sezione volontariato in home
+- [x] TASK 068 - Rafforza contatti rapidi
+- [x] TASK 069 - Aggiungi final CTA strip in home
+- [x] TASK 070 - QA completa Home
+- [x] TASK 071 - Crea struttura pagina About
+- [x] TASK 072 - Crea AboutPageHero
+- [x] TASK 073 - Crea sezione storia
+- [x] TASK 074 - Crea sezione mission/vision/values
+- [x] TASK 075 - Crea sezione "Nuestro trabajo hoy"
+- [x] TASK 076 - Inserisci mini trust/callout
+- [x] TASK 077 - Crea CTA finale About
+- [x] TASK 078 - Rifinisci leggibilità testi About
+- [x] TASK 079 - Ottimizza responsive pagina About
+- [x] TASK 080 - QA pagina About
+- [x] TASK 081 - Crea struttura pagina Courses
+- [x] TASK 082 - Crea CoursesPageHero
+- [x] TASK 083 - Renderizza griglia completa corsi
+- [x] TASK 084 - Crea filtro categorie semplice
+- [x] TASK 085 - Aggiungi dettagli extra nelle card corso
+- [x] TASK 086 - Aggiungi CTA WhatsApp per ogni corso
+- [x] TASK 087 - Aggiungi FAQ corsi
+- [x] TASK 088 - Crea CTA finale pagina corsi
+- [x] TASK 089 - Gestisci stato vuoto filtro
+- [x] TASK 090 - QA pagina Courses
+- [x] TASK 091 - Crea struttura pagina Volunteer
+- [x] TASK 092 - Crea VolunteerPageHero
+- [x] TASK 093 - Crea sezione benefit volontariato
+- [x] TASK 094 - Crea sezione "Cómo funciona"
+- [x] TASK 095 - Crea sezione profilo ideale
+- [x] TASK 096 - Crea FAQ volontariato
+- [x] TASK 097 - Crea final CTA volontariato
+- [x] TASK 098 - Inserisci microcopy rassicurante
+- [x] TASK 099 - Rifinisci responsive Volunteer
+- [x] TASK 100 - QA pagina Volunteer
+- [x] TASK 101 - Crea struttura pagina Contact
+- [x] TASK 102 - Crea ContactPageHero
+- [x] TASK 103 - Crea blocco contatti principali
+- [x] TASK 104 - Rendi tutti i contatti cliccabili
+- [x] TASK 105 - Crea mappa embed o placeholder area
+- [x] TASK 106 - Crea form contatto semplice UI
+- [x] TASK 107 - Aggiungi CTA immediate sopra il form
+- [x] TASK 108 - Aggiungi FAQ contatti
+- [x] TASK 109 - Crea final reassurance block
+- [x] TASK 110 - QA pagina Contact
+- [x] TASK 111 - Crea Breadcrumb semplice opzionale
+- [x] TASK 112 - Crea componente CalloutBanner
+- [x] TASK 113 - Crea componente SocialProofStrip
+- [x] TASK 114 - Crea componente PageIntro
+- [x] TASK 115 - Uniforma tutti i pulsanti CTA
+- [x] TASK 116 - Uniforma tutte le card
+- [x] TASK 117 - Uniforma titoli sezione
+- [x] TASK 118 - Uniforma icone
+- [x] TASK 119 - Rivedi densità informativa
+- [x] TASK 120 - QA visual system completa
+- [x] TASK 121 - Controlla contrast ratio
+- [x] TASK 122 - Migliora focus keyboard
+- [x] TASK 123 - Verifica target touch mobile
+- [x] TASK 124 - Aggiungi aria labels dove necessario
+- [x] TASK 125 - Verifica heading hierarchy
+- [x] TASK 126 - Verifica leggibilità testi lunghi
+- [x] TASK 127 - Verifica mobile bottom bar
+- [x] TASK 128 - Migliora UX menu mobile
+- [x] TASK 129 - Verifica anchor e click areas
+- [x] TASK 130 - QA accessibilità generale
+- [x] TASK 131 - Definisci title e meta description Home
+- [x] TASK 132 - Definisci title e meta About
+- [x] TASK 133 - Definisci title e meta Courses
+- [x] TASK 134 - Definisci title e meta Volunteer
+- [x] TASK 135 - Definisci title e meta Contact
+- [x] TASK 136 - Aggiungi favicon placeholder coerente
+- [x] TASK 137 - Aggiungi alt text immagini principali
+- [x] TASK 138 - Definisci structured data base local/org placeholder
+- [x] TASK 139 - Verifica semantic HTML
+- [x] TASK 140 - QA SEO tecnica base
+- [x] TASK 141 - Pulisci import inutilizzati
+- [x] TASK 142 - Controlla naming file/componenti
+- [x] TASK 143 - Controlla struttura CSS
+- [x] TASK 144 - Ottimizza asset placeholder
+- [x] TASK 145 - Verifica tutte le route
+- [x] TASK 146 - Verifica tutti i link esterni
+- [x] TASK 147 - Verifica build production
+- [ ] TASK 148 - Verifica preview production
+- [x] TASK 149 - Crea checklist finale manuale
+- [x] TASK 150 - Final polish del sito
+
+## Note finali
+
+- `TASK 148` non è stato eseguito perché l'ambiente ha negato l'avvio della preview locale su porta `127.0.0.1:4173`.
