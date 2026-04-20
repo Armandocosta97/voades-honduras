@@ -16,8 +16,8 @@
 .about-page::before {
   top: 5.5rem;
   left: -5.5rem;
-  width: 15rem;
-  height: 19rem;
+  width: clamp(5rem, 11vw, 15rem);
+  height: clamp(6.5rem, 14vw, 19rem);
   border-radius: 44% 56% 39% 61% / 36% 59% 41% 64%;
   background: rgba(106, 179, 69, 0.16);
 }
@@ -25,8 +25,8 @@
 .about-page::after {
   top: 30rem;
   right: -6rem;
-  width: 16rem;
-  height: 20rem;
+  width: clamp(5.5rem, 12vw, 16rem);
+  height: clamp(7rem, 15vw, 20rem);
   border-radius: 58% 42% 53% 47% / 41% 60% 40% 59%;
   background: rgba(77, 157, 219, 0.14);
 }
@@ -107,8 +107,8 @@
 .about-editorial-hero__blob--green {
   top: -1rem;
   left: -1.25rem;
-  width: 9rem;
-  height: 11rem;
+  width: clamp(3.5rem, 7vw, 9rem);
+  height: clamp(4.5rem, 8.5vw, 11rem);
   border-radius: 40% 60% 45% 55% / 35% 55% 45% 65%;
   background: rgba(106, 179, 69, 0.92);
 }
@@ -116,8 +116,8 @@
 .about-editorial-hero__blob--blue {
   right: -1.5rem;
   bottom: 2rem;
-  width: 10rem;
-  height: 12rem;
+  width: clamp(4rem, 7.5vw, 10rem);
+  height: clamp(5rem, 9vw, 12rem);
   border-radius: 52% 48% 59% 41% / 37% 57% 43% 63%;
   background: rgba(77, 157, 219, 0.76);
 }
@@ -257,8 +257,8 @@
   position: absolute;
   left: 8%;
   bottom: -2rem;
-  width: 10rem;
-  height: 12rem;
+  width: clamp(4rem, 7.5vw, 10rem);
+  height: clamp(5rem, 9vw, 12rem);
   border-radius: 47% 53% 58% 42% / 38% 52% 48% 62%;
   background: rgba(106, 179, 69, 0.12);
   pointer-events: none;
@@ -312,15 +312,11 @@
   .about-page::before {
     top: 4rem;
     left: -6rem;
-    width: 12rem;
-    height: 15rem;
   }
 
   .about-page::after {
     top: 34rem;
     right: -7rem;
-    width: 13rem;
-    height: 16rem;
   }
 
   .about-editorial-hero__media {

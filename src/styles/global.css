@@ -1008,8 +1008,8 @@ select:focus-visible,
 .home-page::before {
   top: 42rem;
   left: -7rem;
-  width: 16rem;
-  height: 22rem;
+  width: clamp(5rem, 11vw, 16rem);
+  height: clamp(7rem, 15vw, 22rem);
   border-radius: 40% 60% 45% 55% / 35% 55% 45% 65%;
   background: rgba(106, 179, 69, 0.24);
 }
@@ -1017,8 +1017,8 @@ select:focus-visible,
 .home-page::after {
   top: 88rem;
   right: -6rem;
-  width: 14rem;
-  height: 18rem;
+  width: clamp(4.5rem, 10vw, 14rem);
+  height: clamp(6rem, 13vw, 18rem);
   border-radius: 52% 48% 59% 41% / 37% 57% 43% 63%;
   background: rgba(77, 157, 219, 0.2);
 }
@@ -1034,8 +1034,8 @@ select:focus-visible,
 .hero-section--poster::before {
   top: 8rem;
   right: -5rem;
-  width: 16rem;
-  height: 20rem;
+  width: clamp(5rem, 11vw, 16rem);
+  height: clamp(6.5rem, 14vw, 20rem);
   border-radius: 52% 48% 59% 41% / 37% 57% 43% 63%;
   background: rgba(77, 157, 219, 0.82);
 }
@@ -1043,8 +1043,8 @@ select:focus-visible,
 .hero-section--poster::after {
   top: 0;
   left: -7rem;
-  width: 18rem;
-  height: 24rem;
+  width: clamp(6rem, 13vw, 18rem);
+  height: clamp(8rem, 17vw, 24rem);
   border-radius: 40% 60% 45% 55% / 35% 55% 45% 65%;
   background: rgba(106, 179, 69, 0.88);
 }
@@ -1081,8 +1081,8 @@ select:focus-visible,
 .hero-poster__blob {
   position: absolute;
   z-index: 0;
-  width: 9rem;
-  height: 12rem;
+  width: clamp(3.5rem, 6.5vw, 9rem);
+  height: clamp(4.5rem, 8.5vw, 12rem);
   filter: saturate(1.05);
 }
 
@@ -1244,8 +1244,8 @@ select:focus-visible,
   position: absolute;
   right: 2.5%;
   top: 50%;
-  width: 11rem;
-  height: 13.5rem;
+  width: clamp(3.5rem, 8vw, 11rem);
+  height: clamp(4.5rem, 10vw, 13.5rem);
   transform: translateY(-50%);
   border-radius: 52% 48% 59% 41% / 37% 57% 43% 63%;
   background: rgba(77, 157, 219, 0.55);
