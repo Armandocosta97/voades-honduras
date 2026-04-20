@@ -1736,13 +1736,47 @@ select:focus-visible,
     grid-template-columns: 1fr;
   }
 
-  .contact-intent-group__actions,
-  .contact-social-row {
-    grid-template-columns: 1fr;
+  .contact-intents-grid {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .contact-intent-group {
+    display: contents;
+  }
+
+  .contact-intent-group > .stack-2xs {
+    display: none;
+  }
+
+  .contact-intent-group__actions {
+    display: contents;
+  }
+
+  .contact-intent-card {
+    flex: 1;
+    min-width: 0;
   }
 
   .contact-intent-card__icon {
-    min-height: 9.5rem;
+    min-height: 0;
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 1.25rem;
+  }
+
+  .contact-intent-card__icon svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .contact-intent-card__label {
+    font-size: 0.72rem;
+    max-width: none;
+  }
+
+  .contact-social-row {
+    grid-template-columns: 1fr;
   }
 
   .contact-social-link {
