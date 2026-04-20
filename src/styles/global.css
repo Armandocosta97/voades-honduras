@@ -47,6 +47,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+  overflow-x: clip;
   font-family: var(--font-body);
   line-height: 1.5;
   color: var(--color-text-dark);
@@ -986,7 +987,7 @@ select:focus-visible,
 
 .home-page {
   position: relative;
-  overflow: visible;
+  overflow: clip;
   background:
     radial-gradient(circle at 88% 38%, rgba(77, 157, 219, 0.12), transparent 14%),
     radial-gradient(circle at 12% 72%, rgba(106, 179, 69, 0.1), transparent 15%),
@@ -1617,7 +1618,7 @@ select:focus-visible,
   gap: 0.75rem;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   .site-header__inner {
     position: relative;
     flex-wrap: wrap;
@@ -1681,6 +1682,7 @@ select:focus-visible,
   }
 
   .hero-poster {
+    min-height: auto;
     padding: 1.5rem 1rem 1.25rem;
     border-radius: 1.4rem;
   }
