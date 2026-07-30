@@ -1618,7 +1618,7 @@ select:focus-visible,
   gap: 0.75rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 999px) {
   .site-header__inner {
     position: relative;
     flex-wrap: wrap;
@@ -1672,7 +1672,9 @@ select:focus-visible,
     border: 0;
     background: rgba(22, 48, 71, 0.2);
   }
+}
 
+@media (max-width: 767px) {
   .floating-whatsapp {
     display: none;
   }
@@ -1781,6 +1783,13 @@ select:focus-visible,
 
   .contact-social-link {
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero-poster__actions {
+    flex-direction: column;
+    align-items: stretch;
   }
 }
 

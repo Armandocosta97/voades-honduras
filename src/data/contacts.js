@@ -48,13 +48,13 @@ export const contacts = {
     },
   ],
   facebook: 'VOADESHN',
-  facebookHref: 'https://facebook.com/',
+  facebookHref: 'https://www.facebook.com/voadeshn/',
   instagram: '@voadespsicologiahn',
   instagramHref: 'https://www.instagram.com/voadespsicologiahn/',
   address: 'Col. El Playon, 25 calle, 11-15 Ave. Edificio Plaza Universitaria, segunda planta local #4',
   city: 'Honduras',
   schedule: 'Lunes a viernes, 8:00 a.m. - 5:00 p.m.',
-  mapsHref: 'https://maps.google.com/',
+  mapsHref: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent('Col. El Playon, 25 calle, 11-15 Ave. Edificio Plaza Universitaria, segunda planta local #4, San Pedro Sula, Honduras')}`,
 }
 
 export default contacts
