@@ -1,5 +1,6 @@
 const mainPhoneNumber = '+50432955521'
 const mainPhoneDisplay = '+504 3295-5521'
+const urgentPhoneNumber = '+50489359888'
 
 function buildWhatsAppHref(number, message) {
   return `https://wa.me/${number.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`
@@ -13,7 +14,7 @@ export const contacts = {
       id: 'support',
       label: 'Llamada para apoyo',
       description: 'Hablar con alguien si necesitas acompañamiento o apoyo.',
-      href: `tel:${mainPhoneNumber}`,
+      href: `tel:${urgentPhoneNumber}`,
     },
     {
       id: 'info',
@@ -33,7 +34,7 @@ export const contacts = {
       label: 'WhatsApp para apoyo',
       description: 'Escribir si necesitas orientación o acompañamiento.',
       href: buildWhatsAppHref(
-        mainPhoneNumber,
+        urgentPhoneNumber,
         'Hola, necesito apoyo y quisiera hablar con VOADES Honduras.',
       ),
     },
