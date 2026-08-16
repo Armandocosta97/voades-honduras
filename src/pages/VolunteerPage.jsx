@@ -39,10 +39,10 @@ function VolunteerPage() {
             <div className="volunteer-hero__blob volunteer-hero__blob--green" />
             <div className="volunteer-hero__blob volunteer-hero__blob--blue" />
             <img
-              alt={siteImages.communityJoy.alt}
+              alt={siteImages.volunteerTeam.alt}
               className="volunteer-hero__image"
               loading="lazy"
-              src={siteImages.communityJoy.src}
+              src={siteImages.volunteerTeam.src}
             />
           </div>
         </div>

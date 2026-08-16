@@ -50,10 +50,10 @@ function CoursesPage() {
             <div className="courses-hero__blob courses-hero__blob--green" />
             <div className="courses-hero__blob courses-hero__blob--blue" />
             <img
-              alt={siteImages.communityMeeting.alt}
+              alt={siteImages.coursesWorkshop.alt}
               className="courses-hero__image"
               loading="lazy"
-              src={siteImages.communityMeeting.src}
+              src={siteImages.coursesWorkshop.src}
             />
           </div>
         </div>
