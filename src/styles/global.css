@@ -1849,3 +1849,19 @@ select:focus-visible,
     display: none;
   }
 }
+
+.not-found-page__section {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.not-found-page__content {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.not-found-page__actions {
+  justify-content: center;
+}

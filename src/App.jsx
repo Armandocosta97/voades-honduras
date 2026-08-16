@@ -4,6 +4,7 @@ import AboutPage from './pages/AboutPage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
 import CoursesPage from './pages/CoursesPage.jsx'
 import HomePage from './pages/HomePage.jsx'
+import NotFoundPage from './pages/NotFoundPage.jsx'
 import VolunteerPage from './pages/VolunteerPage.jsx'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route element={<CoursesPage />} path="/courses" />
           <Route element={<VolunteerPage />} path="/volunteer" />
           <Route element={<ContactPage />} path="/contact" />
+          <Route element={<NotFoundPage />} path="*" />
         </Routes>
       </Layout>
     </HashRouter>
