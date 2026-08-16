@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { contacts } from '../../data/contacts.js'
 import { navItems } from '../../data/nav.js'
 import Button from '../ui/Button.jsx'
+import voadesLogo from '../../assets/voades-logo.svg'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -30,8 +31,8 @@ function Header() {
   return (
     <header className={`site-header ${isScrolled ? 'site-header--scrolled' : ''}`}>
       <div className="container site-header__inner">
-        <NavLink className="site-logo" onClick={closeMenu} to="/">
-          VOADES Honduras
+        <NavLink aria-label="VOADES Honduras" className="site-logo" onClick={closeMenu} to="/">
+          <img alt="VOADES Honduras" src={voadesLogo} />
         </NavLink>
 
         <button

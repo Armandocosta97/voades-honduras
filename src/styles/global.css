@@ -545,10 +545,15 @@ select:focus-visible,
 }
 
 .site-logo {
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  color: var(--color-primary-blue);
+  display: inline-flex;
+  align-items: center;
 }
+
+.site-logo img {
+  height: 2.5rem;
+  width: auto;
+}
+
 
 .menu-toggle {
   display: none;
@@ -1114,19 +1119,9 @@ select:focus-visible,
   margin-bottom: 2rem;
 }
 
-.hero-poster__brand-mark {
-  color: #4d9ddb;
-  font-size: clamp(3rem, 7vw, 5rem);
-  line-height: 0.9;
-  font-weight: 700;
-  letter-spacing: -0.06em;
-}
-
-.hero-poster__brand-subtitle {
-  color: #6ab345;
-  font-size: clamp(0.9rem, 2vw, 1.2rem);
-  font-weight: 800;
-  letter-spacing: 0.06em;
+.hero-poster__brand-logo {
+  width: clamp(14rem, 32vw, 22rem);
+  height: auto;
 }
 
 .hero-poster__content {
@@ -1566,8 +1561,8 @@ select:focus-visible,
 }
 
 .site-footer__brand {
-  color: var(--color-text-dark);
-  font-weight: 800;
+  height: 2.75rem;
+  width: auto;
 }
 
 .site-footer__title {

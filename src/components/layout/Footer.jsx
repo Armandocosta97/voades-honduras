@@ -2,13 +2,14 @@ import { Link } from 'react-router-dom'
 import { contacts } from '../../data/contacts.js'
 import { navItems } from '../../data/nav.js'
 import { socialLinks } from '../../data/socialLinks.js'
+import voadesLogo from '../../assets/voades-logo.svg'
 
 function Footer() {
   return (
     <footer className="site-footer">
       <div className="container site-footer__grid">
         <div className="stack-sm">
-          <p className="site-footer__brand">VOADES Honduras</p>
+          <img alt="VOADES Honduras" className="site-footer__brand" src={voadesLogo} />
           <p>Escucha cercana, orientación clara y una forma sencilla de pedir ayuda.</p>
         </div>
 

@@ -1,6 +1,7 @@
 import { contacts } from '../../data/contacts.js'
 import { siteImages } from '../../data/siteImages.js'
 import Button from '../ui/Button.jsx'
+import voadesLogo from '../../assets/voades-logo.svg'
 
 function HeroSection() {
   return (
@@ -11,8 +12,7 @@ function HeroSection() {
           <div className="hero-poster__blob hero-poster__blob--right" />
 
           <div className="hero-poster__brand">
-            <span className="hero-poster__brand-mark">voades</span>
-            <span className="hero-poster__brand-subtitle">VOCES AMIGAS DE ESPERANZA</span>
+            <img alt="VOADES — Voces amigas de esperanza" className="hero-poster__brand-logo" src={voadesLogo} />
           </div>
 
           <div className="hero-poster__content">
