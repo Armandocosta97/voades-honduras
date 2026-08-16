@@ -4,19 +4,16 @@
     <meta charset="UTF-8" />
     <title>VOADES Honduras</title>
     <script type="text/javascript">
-      const pathSegmentsToKeep = 1
-      const { location } = window
-
-      location.replace(
-        `${location.protocol}//${location.hostname}${location.port ? `:${location.port}` : ''}${location.pathname
-          .split('/')
-          .slice(0, 1 + pathSegmentsToKeep)
-          .join('/')}/?/${location.pathname
-          .slice(1)
-          .split('/')
-          .slice(pathSegmentsToKeep)
-          .join('/')
-          .replace(/&/g, '~and~')}${location.search ? `&${location.search.slice(1).replace(/&/g, '~and~')}` : ''}${location.hash}`,
+      // This site uses HashRouter, so the only real route is the base URL
+      // itself; anything after "#" is handled entirely client-side and
+      // never reaches the server. GitHub Pages serves this file whenever
+      // someone hits a path that isn't the base (e.g. a shared or typed
+      // link like "/voades-honduras/about" without the "#"). Instead of
+      // 404ing, turn the extra path back into the equivalent hash route.
+      var base = '/voades-honduras/'
+      var rest = window.location.pathname.slice(base.length)
+      window.location.replace(
+        base + '#/' + rest + window.location.search + window.location.hash,
       )
     </script>
   </head>
